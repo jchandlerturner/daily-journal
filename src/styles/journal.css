@@ -1,0 +1,65 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    color: white;
+    background-color: #B37932;
+    font-family: sans-serif;
+    width: 20em;
+    justify-content: center;
+    height: 5em;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #0a2736;
+    border-radius: 3px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    font-family: sans-serif;
+    box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #0a2736;
+    font-size: 15px;
+    margin: 0px 0px 12px 32px;
+}
+
+
+h1 {
+    height: 80px;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    color: white;
+    background-color: #0a2736;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.formBoxes {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border-width: 1em;
+    border-color: #FFC37A;
+    border-style: solid;
+    margin-top: 1em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    display: flex;
+    align-items: center;
+}
