@@ -1,3 +1,5 @@
+import makeJournalEntryComponent from "./entryComponent.js"
+
 const entryInfo = document.querySelector(".entryLog")
 
 function renderJournalEntries (entryArray) {
@@ -7,3 +9,5 @@ function renderJournalEntries (entryArray) {
     }
     
 }
+
+export default renderJournalEntries

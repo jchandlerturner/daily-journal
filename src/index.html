@@ -14,42 +14,39 @@
 <body>
     <h1>CHANDLER'S DAILY JOURNAL</h1>
     <div class="formBoxes">
-    <form>
-        <fieldset>
-            <label for="journalDate">Entry Date:</label>
-            <input type="date" name="journalDate" id="journalDate">
-        </fieldset>
-        <fieldset>
-            <label for="concepts">Concepts Covered:</label>
-            <input type="text">
-        </fieldset>
-        <fieldset>
-            <label for="journalEntry">Journal Entry:</label>
-            <textarea rows="3" cols="25"></textarea>
-        </fieldset>
-        <fieldset>
-            <label for="mood">What's Your Vibe?</label>
-            <select>
-                <option value="happy">😊 Happy</option>
-                <option value="sad">😭 Sad</option>
-                <option value="stressed">😅 Stressed</option>
-                <option value="sleepy">😴 Sleepy</option>
-                <option value="badass">💪 Badass</option>
-            </select>
-        </fieldset>
-        <input type="submit" value="You've Got This!">
-    </form>
+        <form>
+            <fieldset>
+                <label for="journalDate">Entry Date:</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset>
+                <label for="concepts">Concepts Covered:</label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <label for="journalEntry">Journal Entry:</label>
+                <textarea rows="3" cols="25"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="mood">What's Your Vibe?</label>
+                <select>
+                    <option value="happy">😊 Happy</option>
+                    <option value="sad">😭 Sad</option>
+                    <option value="stressed">😅 Stressed</option>
+                    <option value="sleepy">😴 Sleepy</option>
+                    <option value="badass">💪 Badass</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="You've Got This!">
+        </form>
     </div>
     <article class="entryLog">
-        
+
     </article>
     <footer>
         <p>&copy; Chandler Turner</p>
     </footer>
-    <script src="scripts/data.js"></script>
-    <script src="scripts/entriesDOM.js"></script>
-    <script src="scripts/journal.js"></script>
-    <script src="scripts/entryComponent.js"></script>
+    <script src="scripts/journal.js" type="module"></script>
 </body>
 
 </html>

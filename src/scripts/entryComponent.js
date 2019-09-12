@@ -7,3 +7,5 @@ const makeJournalEntryComponent = (entryArray) => {
         <p>Mood: ${entryArray.mood}</p>
     `
 }
+
+export default makeJournalEntryComponent
