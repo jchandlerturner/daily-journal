@@ -1,18 +1,25 @@
 {
-    "entries": [
-        {
-        "id": 1,
-        "date": "08/03/2019",
-        "conceptsCovered": "Daily Journal",
-        "contents": "Learned how to work in my Daily Journal",
-        "mood": "Meh"
+  "entries": [
+    {
+      "id": 1,
+      "date": "08/03/2019",
+      "conceptsCovered": "Daily Journal",
+      "contents": "Learned how to work in my Daily Journal",
+      "mood": "Meh"
     },
-        {
-        "id": 2,
-        "date":"8/30/2019",
-        "conceptsCovered": "JSON",
-        "contents": "Learnign how to fetch data.",
-        "mood": "Ehhhh"
-        }
-]
+    {
+      "id": 2,
+      "date": "8/30/2019",
+      "conceptsCovered": "JSON",
+      "contents": "Learnign how to fetch data.",
+      "mood": "Ehhhh"
+    },
+    {
+      "date": "2019-09-16",
+      "conceptsCovered": "Webpack",
+      "contents": "I am confusion",
+      "mood": "stressed",
+      "id": 3
+    }
+  ]
 }

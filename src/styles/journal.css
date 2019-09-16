@@ -4,7 +4,7 @@ fieldset {
     color: white;
     background-color: #B37932;
     font-family: sans-serif;
-    width: 20em;
+    width: 80%;
     justify-content: center;
     height: 5em;
     border: none;
@@ -18,9 +18,10 @@ fieldset {
 
 
 h1 {
-    height: 80px;
+    height: 100px;
     text-align: center;
     font-family: 'News Cycle', sans-serif;
+    letter-spacing: 1rem;
     color: white;
     background-color: #0a2736;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
@@ -37,17 +38,19 @@ body {
 
 .formBoxes {
     display: flex;
-    justify-content: center;
+align-items: center;    flex-direction: column;
 }
 
 form {
     border-width: 1em;
     border-color: #FFC37A;
     border-style: solid;
-    margin-top: 1em;
+    margin-top: 0em;
     background-color: #B37932;
     border-radius: 1em;
     box-shadow: 5px 10px 18px #888888;
+    width: 30%;
+    text-align: center;
 }
 
 label {
@@ -66,7 +69,7 @@ input {
     letter-spacing: 2px;
 }
 
-input[type="submit"] {
+#submitButton {
     width: 50%;
     background-color: #0a2736;
     border-radius: 3px;
@@ -77,7 +80,8 @@ input[type="submit"] {
     box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
 	border: 1px solid #0a2736;
     font-size: 15px;
-    margin-left: 12px;
+    margin: 0px 0px 4px 12px;
+    padding: 4px 7px;
 }
 
 select {
@@ -126,4 +130,18 @@ select {
       border-style: solid;
       margin-top: 2rem; 
       width: 50%;
+    }
+
+    .plantimg {
+        height: 10em;
+        padding-left: 1rem;
+    }
+
+    .cactusdiv {
+        border: none;
+        display: flex;
+        justify-content: center;
+        height: 50%;
+        width: 50%;
+        margin-top: 2em;
     }

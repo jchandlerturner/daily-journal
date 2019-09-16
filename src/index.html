@@ -14,6 +14,12 @@
 <body>
     <h1>CHANDLER'S DAILY JOURNAL</h1>
     <div class="formBoxes">
+        <div class="cactusdiv">
+        <img class="plantimg" src="styles/cactusbb.png">
+        <img class="plantimg" src="styles/PLANTBB.png">
+        <img class="plantimg" src="styles/HEHEPLANTS.png">
+      
+        </div>
         <form>
             <fieldset>
                 <label for="journalDate">Entry Date:</label>
@@ -21,15 +27,15 @@
             </fieldset>
             <fieldset>
                 <label for="concepts">Concepts Covered:</label>
-                <input type="text">
+                <input id="journalConcepts" type="text">
             </fieldset>
             <fieldset>
                 <label for="journalEntry">Journal Entry:</label>
-                <textarea rows="3" cols="25"></textarea>
+                <textarea rows="3" cols="25" id="journalEntry"></textarea>
             </fieldset>
             <fieldset>
-                <label for="mood">What's Your Vibe?</label>
-                <select>
+                <label for="moodDrop">What's Your Vibe?</label>
+                <select id="mood">
                     <option value="happy">😊 Happy</option>
                     <option value="sad">😭 Sad</option>
                     <option value="stressed">😅 Stressed</option>
@@ -37,7 +43,7 @@
                     <option value="badass">💪 Badass</option>
                 </select>
             </fieldset>
-            <input type="submit" value="You've Got This!">
+            <button id="submitButton">You've Got This!</button> 
         </form>
     </div>
     <article class="entryLog">
